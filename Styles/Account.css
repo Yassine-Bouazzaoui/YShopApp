@@ -1,0 +1,129 @@
+.container {
+    max-width: 960px;
+    margin: auto;
+}
+
+/* Marges supérieures pour espacer les sections */
+.mt-5 {
+    margin-top: 3rem;
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+/* Style des cartes */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.card-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+/* Style des paragraphes et des labels */
+.card-body p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+.card-body label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style des boutons */
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* Style des champs de formulaire */
+.form-control {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+    outline: none;
+}
+
+/* Centrage pour le bouton de déconnexion */
+.text-center {
+    text-align: center;
+}
+
+/* Formulaire caché par défaut */
+#editAccountForm {
+    display: none;
+}
